@@ -7,3 +7,6 @@ file '/etc/motd' do
   group 'root'
 end
 
+service 'ntpd' do
+  action [ :enable, :start ]
+end
