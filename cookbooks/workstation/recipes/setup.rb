@@ -1,3 +1,4 @@
+package 'git'
 package 'tree'
 package 'ntp'
 
